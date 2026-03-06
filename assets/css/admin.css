@@ -1,0 +1,94 @@
+.admin-layout {
+    display: flex;
+    min-height: 100vh;
+  }
+  
+  .sidebar {
+    width: 240px;
+    background: #0f172a;
+    color: #e5e7eb;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    padding: 20px 16px;
+  }
+  
+  .sidebar a {
+    display: block;
+    padding: 10px 14px;
+    border-radius: 8px;
+    color: #e5e7eb;
+    text-decoration: none;
+    margin-bottom: 6px;
+  }
+  .sidebar a:hover,
+  .sidebar a.active {
+    background: rgba(255,255,255,.08);
+  }
+  
+  .main-content {
+    margin-left: 240px;
+    width: 100%;
+  }
+  
+  .topbar {
+    height: 64px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 28px;
+    border-bottom: 1px solid #e5e7eb;
+  }
+  
+  .workspace {
+    padding: 28px;
+  }
+
+  /* FORM POLISH */
+.form-control, textarea {
+    border-radius: 8px;
+    padding: 10px 12px;
+    transition: all .15s ease;
+  }
+  
+  .form-control:focus, textarea:focus {
+    border-color: #6366f1;
+    box-shadow: 0 0 0 3px rgba(99,102,241,.15);
+  }
+  
+  /* FILE INPUT */
+  input[type=file] {
+    padding: 8px;
+  }
+  
+  /* SECTION TITLES */
+  .workspace h6 {
+    letter-spacing: .3px;
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+  
+  /* CARD DEPTH */
+  .table-card {
+    background: var(--card);
+    border-radius: 14px;
+    box-shadow: 0 8px 24px rgba(0,0,0,.06);
+  }
+  
+  /* BUTTONS */
+  .btn-primary {
+    background: linear-gradient(135deg,#6366f1,#4f46e5);
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    opacity: .95;
+  }
+  
+  .toast {
+    box-shadow: 0 10px 25px rgba(0,0,0,.15);
+    border-radius: 10px;
+    font-weight: 500;
+  }
+  
